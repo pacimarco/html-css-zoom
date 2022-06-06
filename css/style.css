@@ -55,3 +55,28 @@ main{
     padding: 20px 80px;
     
 }
+
+.container{
+    width: 100%;
+    height:100%;
+    
+
+
+}
+
+.card{
+    position: relative;
+    border: solid 1px black;
+    width: 250px;
+}
+
+.person{
+    background-color: rgba(rgb(153, 147, 147), green, blue, o.2);
+    width: 100px;
+    height: 20px;
+    color: white;
+    text-align: center;
+    position: absolute;
+    left: 0px;
+    bottom: 5px;
+}
