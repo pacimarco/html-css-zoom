@@ -3,6 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: black;
+}
+
 /* misure header*/
 header{
     width: 100%;
@@ -62,7 +67,7 @@ footer{
 main{
     width: 100%;
     height: calc(100vh - 160px);
-    padding: 20px 80px;
+    padding: 20px 80px 10px 80px;
     overflow: scroll;
     background-color: black;
     
