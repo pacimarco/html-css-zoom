@@ -29,6 +29,7 @@ header{
     width: 20%;
     height: 10px;
     color: white;
+    line-height: 10px;
 }
 
 .symbol{
@@ -54,6 +55,7 @@ footer{
     width: 100%;
     height: 80px;
     background-color: black;
+    display: flex;
 }
 
 /* misure main*/
@@ -96,4 +98,46 @@ img{
     position: absolute;
     left: 0px;
     bottom: 5px;
+}
+
+.setting{
+    height: 100%;
+    width: 10%;
+    background-color: rgb(22, 21, 21);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-menu{
+    height: 100%;
+    width: 80%;
+    background-color: rgb(22, 21, 21);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#green{
+    color: greenyellow;
+}
+
+.meeting{
+    height: 100%;
+    width: 10%;
+    background-color: darkgray;
+    color: red;
+    text-align: center;
+    position: relative;
+    
+}
+
+.end{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: small;
 }
