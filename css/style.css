@@ -141,3 +141,7 @@ img{
     transform: translate(-50%, -50%);
     font-size: small;
 }
+
+footer div{
+    text-align: center;
+}
