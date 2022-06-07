@@ -13,44 +13,21 @@ header{
     width: 100%;
     height: 80px;
     background-color: black;
-    position: relative
+    text-align: right;
+    padding: 5px 5px;
 
 }
 
-.speaker-view{
-    background-color: gray;
-    width: 100px;
-    height: 20px;
+header button{
+    background-color: grey;
     color: white;
-    position: absolute;
-    top: 5px;
-    right: 30px;
-    font-size: 12px;
-
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
 }
 
-.speaker-view span i{
-    font-size: 12px;
-    width: 20%;
-    height: 10px;
-    color: white;
-    line-height: 10px;
-}
 
-.symbol{
-    background-color: gray;
-    height: 20px; 
-    width: 20px;
-    color: white;
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    text-align: center;
-}
 
-header i{
-    font-size: 80%;
-}
 
 
 
@@ -59,8 +36,9 @@ header i{
 footer{
     width: 100%;
     height: 80px;
-    background-color: black;
+    background-color: rgb(22, 21, 21);
     display: flex;
+    justify-content: space-between;
 }
 
 /* misure main*/
@@ -95,7 +73,7 @@ img{
 }
 
 .person{
-    background-color: rgba(rgb(153, 147, 147), green, blue, o.2);
+    background-color: rgba(0,0,0,0.2);
     width: 100px;
     height: 20px;
     color: white;
@@ -117,7 +95,7 @@ img{
 
 .main-menu{
     height: 100%;
-    width: 80%;
+    width: 60%;
     background-color: rgb(22, 21, 21);
     color: white;
     display: flex;
